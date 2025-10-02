@@ -9,7 +9,7 @@ export default function RootLayout() {
   const [loaded] = useFonts({});
 
   return (
-    // Drawer controla el menú lateral; cada <Drawer.Screen> apunta a un archivo .tsx dentro de app/
+    
     <Drawer
       screenOptions={{
         headerTitleAlign: 'center',
@@ -35,7 +35,6 @@ export default function RootLayout() {
         name="experiencia"
         options={{ title: 'Experiencia' }}
       />
-      {/* Si no usarás las tabs de la plantilla, puedes borrar la carpeta (tabs) */}
     </Drawer>
   );
 }
